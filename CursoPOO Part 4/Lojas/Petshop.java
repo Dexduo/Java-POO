@@ -9,10 +9,12 @@ public class Petshop{
     }
 
     public void tosar(Cachorro cachorro){
-        animal.estadoDeEspirito("tosado");
+        cachorro.setEstadoDeEspirito("tosado");
     }
 
     public void deixarNoHotel(Animal animal){
-        animal.estadoDeEspirito("com saudades");
+        // animal.estadoDeEspirito("com saudades");
+        // animal.estadoDeEspirito("com saudades");
+        animal.setEstadoDeEspirito("com saudades");
     }
 }

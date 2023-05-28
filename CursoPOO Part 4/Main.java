@@ -2,7 +2,7 @@ import Animais.Cachorro;
 import Animais.Gato;
 import Animais.Passaro;
 import Animais.Animal;
-// import Lojas.Petshop;
+import Lojas.Petshop;
 
 public class Main{
 
@@ -27,10 +27,10 @@ public class Main{
 
         // Passaro passaro1 = new Passaro("Frajola", "Azul", 0.5);
 
-        // Petshop petshop = new Petshop();
+        Petshop petshop = new Petshop();
 
-        // petshop.darBanho(cachorro1);
-        // System.out.println(cachorro1.getEstadoDeEspirito());
+        petshop.darBanho(cachorro1);
+        System.out.println(cachorro1.getEstadoDeEspirito());
 
         // petshop.darBanho(gato1);
         // System.out.println(gato1.getEstadoDeEspirito());
